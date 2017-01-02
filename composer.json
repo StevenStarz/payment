@@ -1,0 +1,16 @@
+{
+    "name": "stevens/payment",
+    "description": "This is my first library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Steven",
+            "email": "stevensoh31@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.6.4",
+        "stevens/core": "dev-master"
+    }
+}
