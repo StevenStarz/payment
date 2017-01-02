@@ -11,6 +11,6 @@
     "license": "proprietary",
     "require": {
         "php": ">=5.6.4",
-        "stevens/core": "*"
+        "stevens/core": "dev-master"
     }
 }
