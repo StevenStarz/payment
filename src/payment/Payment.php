@@ -2,10 +2,9 @@
 
 namespace Payment;
 
-use Payment\BasePayment;
 use Payment\Payment;
 
-class Payment extends BasePayment
+class Payment
 {
     protected static $counter = 3;
 }

@@ -14,9 +14,9 @@
         "stevens/core": "dev-master"
     },
     "autoload": {
-        "psr-4": {
-            "": "core/src/core/"
+        "psr-0": {
+            "Payment\\": "src/"
         }
     },
-    "target-dir": "core/src/core"
+    "target-dir": "core"
 }
