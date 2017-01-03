@@ -2,10 +2,10 @@
 
 namespace Payment;
 
-class Payment
+use Payment\BasePayment;
+use Payment\Payment;
+
+class Payment extends BasePayment
 {
-    public static function bar()
-    {
-        return 'Class payment has been succees created';
-    }
+    protected static $counter = 3;
 }

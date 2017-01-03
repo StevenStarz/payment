@@ -12,5 +12,11 @@
     "require": {
         "php": ">=5.6.4",
         "stevens/core": "dev-master"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "": "core/src/core/"
+        }
+    },
+    "target-dir": "core/src/core"
 }
