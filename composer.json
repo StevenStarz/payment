@@ -14,9 +14,13 @@
         "stevens/core": "dev-master"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Payment\\": "src/"
         }
     },
-    "target-dir": "core"
+    "extra": {
+        "installer-paths": {
+            "{$vendor}/{$name}/src": ["stevens/payment"]
+        } 
+    }
 }
