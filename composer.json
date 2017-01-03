@@ -15,14 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Payment\\": "src/"
+            "Stevens\\Payment\\": "src/"
         }
-    },
-    "extra": {
-        "installer-paths": {
-            "core/src": [
-                "stevens/payment"
-            ]
-        } 
     }
 }

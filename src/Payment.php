@@ -1,8 +1,6 @@
 <?php
 
-namespace Payment;
-
-use Payment\Payment;
+namespace Stevens\Payment;
 
 class Payment
 {
