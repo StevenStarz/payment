@@ -20,7 +20,9 @@
     },
     "extra": {
         "installer-paths": {
-            "{$vendor}/{$name}/src": ["stevens/payment"]
+            "stevens/core/src": [
+                "stevens/payment"
+            ]
         } 
     }
 }
