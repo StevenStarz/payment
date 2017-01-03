@@ -10,16 +10,11 @@ class ComposerStaticInitdf80693cdaf2b94637c5871b466c17de
         'S' => 
         array (
             'Stevens\\Payment\\' => 16,
-            'Stevens\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Stevens\\Payment\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Stevens\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

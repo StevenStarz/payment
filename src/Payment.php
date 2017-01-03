@@ -4,5 +4,5 @@ namespace Stevens\Payment;
 
 class Payment
 {
-    protected static $counter = 3;
+    public static $counter = 3;
 }
